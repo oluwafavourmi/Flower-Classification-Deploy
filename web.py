@@ -5,6 +5,7 @@ import keras
 from keras.preprocessing import image
 from keras.models import load_model
 from keras.preprocessing.image import img_to_array
+import numpy as np
 
 final_model = load_model('C:\\Users\\TeeFaith\\Desktop\\ML PROJECTS\\Flower Classification(deploy)\\Flower Classification Model.h5')
 
